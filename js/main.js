@@ -1,6 +1,7 @@
 var blue = document.getElementById("blue");
 var white = document.getElementById("white");
 var stupid = document.getElementById("stupid");
+var mindBlown = document.getElementById("mindblown");
 
 blue.addEventListener( "click", function() {
         var addPara = document.createElement("p");
@@ -23,5 +24,15 @@ stupid.addEventListener( "mouseenter", function() {
 
 stupid.addEventListener( "mouseout", function() {
         document.getElementById("stupid_hidden").style.display = "none";
+
+});
+
+mindBlown.addEventListener( "mouseenter", function() {
+        document.getElementById("mindblown_hidden").style.display = "block";
+
+});
+
+mindBlown.addEventListener( "mouseout", function() {
+        document.getElementById("mindblown_hidden").style.display = "none";
 
 });
