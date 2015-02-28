@@ -30,8 +30,16 @@ h2 {
 #stupid_hidden, #mindblown_hidden {
     display: none;
     clear: both;
+}
+
+#stupid_hidden {
     text-align: left;
 }
+
+#mindblown_hidden {
+    text-align: right;
+}
+
 
 #dress {
     float: left;
