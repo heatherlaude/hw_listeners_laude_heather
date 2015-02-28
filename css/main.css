@@ -25,3 +25,7 @@ p {
 h2 {
     color: white;
 }
+
+#stupid_hidden, #mindblown_hidden {
+    display: none;
+}
