@@ -9,7 +9,7 @@ body {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
-    background-color: #B4A692;
+    background-color: #B4A692;]
 }
 
 h1 {
@@ -24,8 +24,34 @@ p {
 
 h2 {
     color: white;
+    clear: both;
 }
 
 #stupid_hidden, #mindblown_hidden {
     display: none;
+    clear: both;
+    text-align: left;
+}
+
+#dress {
+    float: left;
+    padding-left: 50px;
+}
+
+#whatcolor {
+    float: right;
+    width: 200px;
+    padding-right: 20px;
+}
+
+#stupid {
+    float: left;
+}
+
+#mindblown {
+    float: right;
+}
+
+#clearfix {
+    clear: both;
 }
