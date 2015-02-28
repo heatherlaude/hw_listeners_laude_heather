@@ -14,7 +14,7 @@ body {
 
 #email_address, #lastname, #firstname, textarea {
     width: 210px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
 }
 
