@@ -11,3 +11,16 @@ body {
     border-radius: 20px;
     box-shadow: 8px 8px 3px #332B33;
 }
+
+#email_address, #lastname, #firstname, textarea {
+    width: 210px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submit {
+    border-radius: 10px;
+    background-color: #61004c;
+    color: white;
+    padding: 10px;
+}
